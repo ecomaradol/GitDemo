@@ -9,8 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ActionsMouseKey {
 
-
-
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver", "C://Users/Zlata/Introduction/chromedriver.exe");
