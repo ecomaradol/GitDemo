@@ -3,7 +3,7 @@ package courseJava;
 public class stringClassMethods {
 
     public static void main (String[] args){
-
+//Строка - это объект !!!!
         String a ="Heilo";
         System.out.println(a.charAt(2)); //выводит символ на позиции 2//начиная с 0
         System.out.println(a.indexOf("e")); //выводит индекс буквы "e"
@@ -18,6 +18,9 @@ public class stringClassMethods {
         System.out.println(arr[1]);
         System.out.println(a.replace("i", "Y")); //заменяет символ i на Y
 
+            for (int i =a.length()-1; i>=0; i--) {          //обратное отображение строки
+                System.out.println(a.charAt(i));
+            }
     }
 }
 
